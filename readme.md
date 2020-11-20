@@ -23,10 +23,6 @@ Initialiser le projet :
 
     terraform init
 
-Afficher la planification de création des ressources (pas obligatoire) :
-
-    terraform plan
-
 Déployer/appliquer la configuration : 
 
     terraform apply
