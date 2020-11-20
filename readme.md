@@ -23,8 +23,15 @@ Initialiser le projet :
 
     terraform init
 
-Déployer/appliquer la configuration : 
+Déployer l'instance Influxdb : 
 
-    terraform apply
+    terraform apply -target=docker_container.influx -auto-approve
 
-Si tout se passe bien, le résultat de la commande doit retourner succès. Et vous pouvez vous retrouver dans votre navigateur et aller sur : `http://localhost:8086` 
+Puis : 
+
+    terraform apply -auto-approve
+
+Si tout se passe bien, le résultat de la commande doit retourner succès. Et vous pouvez vous retrouver dans votre navigateur et aller sur : `http://localhost:8086`. Les identifiants sont ceux présents dans le fichier `influx.tf` dans la ressource onbording-setup, donc :
+
+- username : joe
+- password : changeme
