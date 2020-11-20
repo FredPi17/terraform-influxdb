@@ -1,0 +1,14 @@
+{
+  "registry.terraform.io/lancey-energy-storage/influxdbv2": {
+    "hash": "h1:OU86gQsvGA2t9GP4hDSK+X3m/3HGCjZct7YknE26it0=",
+    "version": "0.3.0"
+  },
+  "registry.terraform.io/lancey-energy-storage/influxdbv2-onboarding": {
+    "hash": "h1:Vbb4+nB8jjai6w8A9sZKnTeYx/41KX0FiujgA8Meo7Y=",
+    "version": "0.2.0"
+  },
+  "registry.terraform.io/terraform-providers/docker": {
+    "hash": "h1:06EZRBUCgKAVbtwOtE2I0giBUcpgENy+NUUMM88+siY=",
+    "version": "2.7.2"
+  }
+}
